@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Звёздный Асфальт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Звёздный Асфальт</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="celebrities.html">Знаменитости</a></li>
+                <li><a href="street.html">Об улице</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Контакты и отзывы</h1>
+
+        <div class="contact-form">
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Тема:</label>
+                    <select id="subject" name="subject">
+                        <option value="question">Вопрос</option>
+                        <option value="excursion">Запись на экскурсию</option>
+                        <option value="cooperation">Сотрудничество</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Отправить сообщение</button>
+            </form>
+        </div>
+
+        <div class="info-section">
+            <h2>Контактная информация</h2>
+            <p><strong>Адрес:</strong> г. Москва, ул. Звёздный Асфальт, д. 1</p>
+            <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+            <p><strong>Email:</strong> info@zvezdny-asphalt.ru</p>
+            <p><strong>Часы работы:</strong> Пн-Пт: 9:00-18:00</p>
+        </div>
+
+        <div class="reviews-section">
+            <h2>Отзывы посетителей</h2>
+
+            <div class="review">
+                <div class="review-header">
+                    <span class="review-author">Мария С.</span>
+                    <span class="review-date">15.01.2024</span>
+                </div>
+                <div class="review-rating">★★★★★</div>
+                <p>Невероятное место! Ощущаешь прикосновение к истории. Экскурсия была очень интересной, 
+                гид рассказывал увлекательные истории о каждой знаменитости.</p>
+            </div>
+
+            <div class="review">
+                <div class="review-header">
+                    <span class="review-author">Алексей К.</span>
+                    <span class="review-date">08.01.2024</span>
+                </div>
+                <div class="review-rating">★★★★☆</div>
+                <p>Интересная концепция, но хотелось бы больше интерактивных элементов. 
+                В целом впечатления положительные, рекомендую к посещению.</p>
+            </div>
+
+            <div class="review">
+                <div class="review-header">
+                    <span class="review-author">Ольга В.</span>
+                    <span class="review-date">02.01.2024</span>
+                </div>
+                <div class="review-rating">★★★★★</div>
+                <p>Приводила детей на экскурсию. Очень познавательно и интересно даже для школьников. 
+                Дети были в восторге от историй о знаменитостях.</p>
+            </div>
+
+            <div class="review">
+                <div class="review-header">
+                    <span class="review-author">Дмитрий П.</span>
+                    <span class="review-date">28.12.2023</span>
+                </div>
+                <div class="review-rating">★★★☆☆</div>
+                <p>Место интересное, но немного переоцененное. Ожидал большего. 
+                Тем не менее, провели время приятно.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Звёздный Асфальт. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#">VK</a>
+                <a href="#">Telegram</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
